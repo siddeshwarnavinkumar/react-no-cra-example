@@ -1,0 +1,25 @@
+{
+  "name": "react-example",
+  "version": "1.0.0",
+  "description": "This is a typicl React example",
+  "main": "index.js",
+  "scripts": {
+    "watch": "babel js/app.dev.js --watch --out-file js/app.js",
+    "start": "serve .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Siddeshwar Navinkumar",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-transform-react-jsx": "^7.2.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-cli": "^6.26.0",
+    "serve": "^10.1.1"
+  },
+  "dependencies": {
+    "babel-preset-react-app": "^3.1.2"
+  }
+}

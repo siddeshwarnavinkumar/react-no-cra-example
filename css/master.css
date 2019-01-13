@@ -1,0 +1,72 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+a { color: #0336ff }
+h1 {
+  font-weight: 100;
+  font-size: 42px;
+}
+
+#app {
+  margin: auto;
+  max-width: 500px;
+  text-align: center;
+}
+
+header {
+  padding: 5px 20px;
+  background-color: #efefef;
+  text-align: center;
+}
+
+header span.title {
+  font-size: 20px;
+}
+
+.post {
+  display: block;
+  padding: 10px;
+  border: 1px solid #999;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  color: #000;
+  text-decoration: none;
+}
+
+.post a {
+  font-size: 18px;
+}
+
+.post:hover {
+  background-color: #efefef;
+  cursor: pointer;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.pagination > div {
+  padding: 10px;
+}
+
+.pagination > div > p {
+  position: relative;
+  bottom: 7px;
+}
+
+.pagination > div > button {
+  padding: 10px 12px;
+  border: 1px solid #999;
+  border-radius: 10px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.pagination > div > button:hover {
+  background-color: #efefef;
+}
